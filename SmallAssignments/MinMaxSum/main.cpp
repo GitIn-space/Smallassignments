@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	cout << "Enter integer array '9 5 2 8 3'. Enter any non-integer to end input" << endl;
+	cout << "Enter integer array akin to '9 5 2 8 3'. Enter any non-integer to end input" << endl;
 
 	int input;
 	int loops = 0;
