@@ -20,5 +20,9 @@ int main()
 
 	cout << "Third bit of 5U is: " << getBit(x, 2) << endl;
 
+	setBit(x, 2, 0);
+
+	cout << "Now it is: " << getBit(x, 2) << endl;
+
 	return 0;
 }
