@@ -10,12 +10,14 @@ int main()
 	while (playing)
 	{
 		srand(time(NULL));
-		int number = rand() % 11;
+		int low = 0;
+		int high = 11;
+		int number = rand() % high + low;
 		int tries = 1;
 		bool guessing = true;
 		string input = "";
 
-		cout << "Guess my number between 0 - 10 (inclusive)" << endl;
+		cout << "Guess my number between " << low << " - " << high + low - 1 << " (inclusive)" << endl;
 
 		while (guessing)
 		{
